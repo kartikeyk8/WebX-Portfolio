@@ -17,7 +17,7 @@ This website serves as a showcase of my projects, skills, and experiences within
 
 To view the website locally:
 1. Clone this repository.
-2. Open the `final iwd ess.html` file in your browser.
+2. Open the `index.html` file in your browser.
 
 ## Contributing
 
