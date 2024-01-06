@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container li{
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    line-height: 2;
+
+}
+
+.nav-container ul{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.nav-container li a{
+    color: rgba(255, 255, 255, 0.615);
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav-container li a:hover{
+    background-color: grey;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner-image{
+    width: 100%;
+    opacity: 0.4;
+}
+
+.banner-title{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+
+}
+
+.banner-subtitle{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    font-size: 2em;
+    color: rgb(4, 4, 4);
+}
+
+.skill-container{
+    background: url(domenico-loia-hGV2TfOh0ns-unsplash\ \(1\).jpg) no-repeat fixed;
+
+}
+
+.skill-logo{
+    width: 150px;
+    height: 150px;
+}
+
+.skill-heading{
+    margin: 40px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+}
+
+.skill-text{
+    font-size: 1.5em;
+}
+
+.projects-container{
+    background: url('https://images.pexels.com/photos/7078398/pexels-photo-7078398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+.project-heading{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.about-me-container{
+    
+    background: url(123.jpg);
+
+}
+    .about-me{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.about-m{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.contact-info {
+    background-color: #e6e4e4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.contact-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #b9296f;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #b9296f;
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-links li a:hover {
+    color: lightblue;
+  }
+  
