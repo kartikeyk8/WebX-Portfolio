@@ -1,58 +1,70 @@
-*{
+/* Add this to your existing style.css or update the existing code */
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.nav-container li{
+/* Navbar Styling */
+.nav-container li {
     padding: 10px;
     margin: 10px;
     font-family: sans-serif;
     line-height: 2;
-
 }
 
-.nav-container ul{
+.nav-container ul {
     background-color: rgb(0, 0, 0);
-
 }
 
-.nav-container li a{
+.nav-container li a {
     color: rgba(255, 255, 255, 0.615);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px; /* Adjusted font size for better responsiveness */
 }
-.nav-container li a:hover{
+
+.nav-container li a:hover {
     background-color: grey;
 }
 
-.ul{
+.ul {
     display: flex;
     justify-content: space-around;
 }
 
-#banner-image{
-    width: 100%;
-    opacity: 0.4;
+/* Banner Styling */
+.image-container {
+    text-align: center;
+    position: relative;
 }
 
-.banner-title{
+#banner-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8; /* Adjusted opacity for better visibility */
+}
+
+.banner-title {
     position: absolute;
     top: 50%;
-    left: 35%;
-    font-size: 4em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em; /* Adjusted font size for better responsiveness */
     color: rgb(0, 0, 0);
-
 }
 
-.banner-subtitle{
+.banner-subtitle {
     position: absolute;
-    top: 60%;
-    left: 27%;
-    font-size: 2em;
+    top: 70%; /* Adjusted top position for better placement */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em; /* Adjusted font size for better responsiveness */
     color: rgb(4, 4, 4);
+    text-align: center;
 }
 
+/* Skills Styling */
 .skill-container{
     background: url(domenico-loia-hGV2TfOh0ns-unsplash\ \(1\).jpg) no-repeat fixed;
 
@@ -83,37 +95,40 @@
     font-size: 1.5em;
 }
 
-.projects-container{
-    background: url('https://images.pexels.com/photos/7078398/pexels-photo-7078398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+/* Projects Styling */
+.projects-container {
+    background: url('https://images.pexels.com/photos/7078398/pexels-photo-7078398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat fixed;
+    background-size: cover;
+    padding: 50px 0; /* Adjusted padding for better spacing */
 }
-.project-heading{
+
+.project-heading {
     text-align: center;
     font-size: 2em;
     margin: 20px;
 }
 
-.project{
+.project {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin: 20px;
-    font-size: 22px;
+    font-size: 18px; /* Adjusted font size for better responsiveness */
 }
 
-.about-me-container{
-    
-    background: url(123.jpg);
+/* About Me Styling */
+.about-me-container {
+    background: url(123.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 50px 0; /* Adjusted padding for better spacing */
+}
 
-}
-    .about-me{
-    display: flex;
-    align-items: center;
-    margin: 20px;
-}
-.about-m{
-    font-size: 20px;
+.about-m {
+    font-size: 18px; /* Adjusted font size for better responsiveness */
     margin: 20px;
 }
 
+/* Contact Info Styling */
 .contact-info {
     background-color: #e6e4e4;
     padding: 20px;
@@ -133,24 +148,7 @@
     color: #666;
 }
 
-.contact-button {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #3498db;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-    background-color: #b9296f;
-}
-
+.contact-button,
 .button {
     display: block;
     width: 200px;
@@ -165,49 +163,46 @@
     transition: background-color 0.3s ease;
 }
 
+.contact-button:hover,
 .button:hover {
     background-color: #b9296f;
 }
 
+/* Footer Styling */
 .footer-section {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .footer-content p {
-    margin: 0;
-  }
-  
-  .social-links {
+}
+
+.social-links {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .social-links li {
+}
+
+.social-links li {
     display: inline-block;
     margin-right: 10px;
-  }
-  
-  .social-links li a {
+}
+
+.social-links li a {
     color: white;
     text-decoration: none;
-  }
-  
-  .social-links li a:hover {
+}
+
+.social-links li a:hover {
     color: lightblue;
-  }
-  
+}
